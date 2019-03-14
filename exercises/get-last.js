@@ -8,7 +8,10 @@
  */
 
 // Your code :
-
+function getLast(supermegamot){
+    let longueur = supermegamot.length - 1;
+    return supermegamot[longueur];
+}
 //* Begin of tests
 const assert = require('assert')
 
